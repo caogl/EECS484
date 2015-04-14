@@ -1,0 +1,15 @@
+2	-1	1	update	5	0	xxx	one
+3	-1	2	update	3	0	xxx	two
+4	3	2	commit
+8	4	2	end
+9	2	1	CLR	5	0	xxx	-1
+10	9	1	end
+11	-1	3	update	15	0	xxxx	five
+12	11	3	update	16	18	xxx	six
+13	-1	4	update	11	2	xxxxx	eight
+14	12	3	commit
+16	14	3	end
+17	13	4	CLR	11	2	xxxxx	-1
+18	17	4	end
+19	-1	6	update	10	0	xxx	six
+20	19	6	commit

@@ -1,0 +1,12 @@
+2	-1	1	update	5	0	xxx	one
+3	-1	2	update	3	0	xxx	two
+4	3	2	update	1	0	xxxxx	three
+5	2	1	update	13	0	xxxx	four
+6	4	2	commit
+7	6	2	end
+8	5	1	abort
+9	8	1	CLR	13	0	xxxx	2
+10	9	1	CLR	5	0	xxx	-1
+11	10	1	end
+12	-1	-1	begin_checkpoint
+13	12	-1	end_checkpoint	{}	{ [ 1 4 ] [ 3 3 ] [ 5 2 ] [ 13 5 ]}
